@@ -1,4 +1,52 @@
-div {
+/* div {
     background-color: tomato;
     padding: 10px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 100vh;
+    background-color: bisque;
+}
+
+.flag-container {
+    height: 30vh;
+    width: 55vh;
+    background-color: green;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.circle-container {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+.flag-handle {
+    height: 400px;
+    width: 30px;
+    background-color: black;
+    position: relative;
+}
+
+.flag-footer {
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: black;
+
 }
